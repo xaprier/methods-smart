@@ -18,12 +18,12 @@
   </a>
 </p>
 
-# methods-smart  
-SMART Method C++ Code With Object-Oriented Principles  
+# methods-smart
+SMART Method C++ Code With Object-Oriented Principles
   
 ## SMART Method
-### 1. Introduction  
-  
+### 1. Introduction
+
 <html lang="en_US">
     <p>
         The Simple Multi-Attribute Rating Technique (SMART) was introduced by  
@@ -99,4 +99,42 @@ SMART Method C++ Code With Object-Oriented Principles
             <td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
         </tr>
     </table>
+</html>
+
+### 2. Description of SMART Method
+
+#### 2.1 Rating the Attributes
+<html>
+    <p>
+        In the first step, the minimum <b><i>P<sub>min</sub></i></b> and 
+        maximum value <b><i>P<sub>max</sub></i></b> are defined for all attributes 
+        by decision maker.
+    </p>
+    <p>
+        Therefore, the decision maker obviously chooses in the interval 
+        of (<b><i>P<sub>min</sub></i></b>; <b><i>P<sub>max</sub></i></b>).
+        The entire decision-making interval is divided into sub-intervals 
+        with equal lengths from Eq. (<a href="#e1.2">1.2</a>).
+        <p align="center" id="e1.2">
+            (1.2)&nbsp;<b><i>P<sub>min</sub>; P<sub>min</sub> + e<sub>0</sub>; P<sub>min</sub> + e<sub>1</sub>; ... </i></b>
+        </p>
+    </p>
+    <p>
+        Eq. (<a href="#e1.3">1.3</a>) is used to calculate e.
+        <p align="center" id="e1.3">
+        (1.3)&nbsp;<b><i>e<sub>v</sub> - e<sub>v-1</sub> = &#946;e<sub>v-1</sub></i></b>
+        </p>
+    </p>
+    <p>
+        The geometric progression is created, and Eq. (<a href="#e1.4">1.4</a>) is obtained.
+        <p align="center" id="e1.4">
+        (1.4)&nbsp;<b><i>e<sub>v</sub> = (1 + &#946;)e<sub>v-1</sub> = (1 + &#946;)<sup>2</sup>e<sub>v-2</sub> = (1 + &#946;)<sup>v</sup>e<sub>0</sub></i></b>
+        </p>
+    </p>
+    <p>
+        Finally, Eq. (<a href="#e1.5">1.5</a>) can be deduced
+        <p align="center" id="e1.5">
+            (1.5)&nbsp;<b><i>P<sub>max</sub> = e<sub>v</sub> + P<sub>min</sub></i></b>
+        </p>
+    </p>
 </html>
