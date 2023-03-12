@@ -21,8 +21,8 @@
 # methods-smart
 SMART Method C++ Code With Object-Oriented Principles
   
-## SMART Method
-### 1. Introduction
+# SMART Method
+## 1. Introduction
 
 <html lang="en_US">
     <p>
@@ -98,9 +98,9 @@ SMART Method C++ Code With Object-Oriented Principles
     </table>
 </html>
 
-### 2. Description of SMART Method
+## 2. Description of SMART Method
 
-#### 2.1 Rating the Attributes
+### 2.1 Rating the Attributes
 <html>
     <p>
         In the first step, the minimum <b><i>P<sub>min</sub></i></b> and 
@@ -135,3 +135,17 @@ SMART Method C++ Code With Object-Oriented Principles
         </p>
     </p>
 </html>
+
+### 2.2 The Effective Weights of Alternatives
+<p>
+    g<sub>ij</sub> is the effective weight of alternatives and it is obtained from judgment of the decision maker about the alternative A<sub>i</sub> against the attribute C<sub>j</sub>. 
+    Initially, the qualitative attributes are ranked based on the attribute situation expressed by the decision maker according to <a href="#table11">Table 1.1</a>. 
+    Also, the Eq. (<a href="e1.6">1.6</a>) is used for the quantitative attributes (P<sub>v</sub> indicates the value of alternative in the studied attribute)
+    <p align="center" id="e1.6">
+        (1.6)&nbsp;<b><i>v = log<sub>2</sub><sup>(P<sub>v</sub> - P<sub>min</sub>) / (P<sub>max</sub> - P<sub>min</sub>) * 64</sup></i></b>
+    </p>
+    <p>
+        According to Eq. (<a href="e1.6">1.6</a>), g<sub>ij</sub> is obtained for positive attributes (the higher amount of attribute is better like speed), when the value of v is summed with the number 4 to match the quantitative and qualitative attributes in <a href="#table11">Table 1.1</a>. 
+        On the other hand, g<sub>ij</sub> is obtained for negative attributes (the lower amount of attribute is better like price), when the value of v is subtracted from 10 to match the quantitative and qualitative attributes in <a href="#table11">Table 1.1</a>.
+    </p>
+</p>
