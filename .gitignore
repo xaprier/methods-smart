@@ -1,0 +1,8 @@
+# KDevelop
+*.kde*
+# VSCode
+*.vscode*
+# QtCreator
+*build*
+# JetBrains IDEs
+*idea*
