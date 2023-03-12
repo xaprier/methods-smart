@@ -43,7 +43,7 @@ SMART Method C++ Code With Object-Oriented Principles
         Initially, the matrix of alternatives and attributes is formed based on the information received from the decision maker, which is as shown in Eq.(<a href="#1.1">1.1</a>).
     </p>
     <table align="center" border="true" id="1.1">
-    <p align="center"><b>(1.1)X<sub>(m,n)</sub>; i = 1,...,m; j = 1,...,n</b></p>
+        <p align="center">(1.1)X<sub>(m,n)</sub>; i = 1,...,m; j = 1,...,n</p>
         <tr>
             <td><i>r</i><sub>11</sub></td>
             <td>...</td>
@@ -88,7 +88,7 @@ SMART Method C++ Code With Object-Oriented Principles
         shown in <a href=#table11>Table 1.1</a>.
     </p>
     <table border="true" align="center" id="table11">
-        <caption>Table 1.1 Seven ranking of qualitative attributes</caption>
+        <p align="center">Table 1.1 Seven ranking of qualitative attributes</p>
         <tr>
             <td>Poor</td><td>Fairly Weak</td><td>Medium</td><td>Fairly Good</td><td>Good</td><td>Very Good</td><td>Excellent</td>
         </tr>
