@@ -145,7 +145,27 @@ SMART Method C++ Code With Object-Oriented Principles
         (1.6)&nbsp;<b><i>v = log<sub>2</sub><sup>(P<sub>v</sub> - P<sub>min</sub>) / (P<sub>max</sub> - P<sub>min</sub>) * 64</sup></i></b>
     </p>
     <p>
-        According to Eq. (<a href="e1.6">1.6</a>), g<sub>ij</sub> is obtained for positive attributes (the higher amount of attribute is better like speed), when the value of v is summed with the number 4 to match the quantitative and qualitative attributes in <a href="#table11">Table 1.1</a>. 
+        According to Eq. (<a href="#e1.6">1.6</a>), g<sub>ij</sub> is obtained for positive attributes (the higher amount of attribute is better like speed), when the value of v is summed with the number 4 to match the quantitative and qualitative attributes in <a href="#table11">Table 1.1</a>. 
         On the other hand, g<sub>ij</sub> is obtained for negative attributes (the lower amount of attribute is better like price), when the value of v is subtracted from 10 to match the quantitative and qualitative attributes in <a href="#table11">Table 1.1</a>.
+    </p>
+</p>
+
+### 2.3 The Normalized Weights
+<p>
+    Initially, the decision maker is asked to rank the attributes according to his priority and <a href="#table11">Table 1.1</a> from 4 to 10. The following definitions are considered to formulate the model:<br>
+    <ul>
+        <li><b><i>A<sub>i</sub></i></b> Alternatives, i = 1,...,m (m represents the number of alternatives);</li>
+        <li><b><i>C<sub>j</sub></i></b> Attributes, j = 1,...,n (n denotes the number of attributes);</li>
+        <li><b><i>h<sub>j</sub></i></b> The rank allocated to the attribute <b><i>C<sub>j</sub></i></b> by the decision maker j = 1,...,n;</li>
+        <li><b><i>w<sub>j</sub></i></b> The denormalized weight obtained from Eq. (<a href="#e1.7">1.7</a>)</li>
+    </ul>
+    <p align="center" id="e1.7">
+        (1.7)&nbsp;<b><i>w<sub>j</sub> = (&radic;2)<sup>h<sub>j</sub></sup> ; j = 1,...,n;</i></b>
+    </p>
+    <p>
+        Now, the value of each attribute is calculated after normalization as shown in Eq. (<a href="#e1.8">1.8</a>)
+        <p align="center" id="e1.8">
+            (1.8)&nbsp;<b><i>w<sub>j</sub> = (&radic;2)<sup>h<sub>j</sub></sup> / &sum;<sup>n</sup><sub>j=1</sub> (&radic;2)<sup>h<sub>j</sub></sup></i></b>
+        </p>
     </p>
 </p>
