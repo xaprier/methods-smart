@@ -178,3 +178,15 @@ SMART Method C++ Code With Object-Oriented Principles
     </p>
     The alternative with the highest <b><i>f<sub>i</sub></i></b> amount is the best alternative, and others are also ranked.
 </p>
+
+## 3.1 Case Study
+<p>
+    A manufacturer, aiming to produce a car from three different car models (<b>A<sub>1</sub>, A<sub>2</sub> and A<sub>3</sub></b>), expresses the selection interval for the attributes of price (<b>C<sub>1</sub></b>), maximum speed (<b>C<sub>2</sub></b>), acceleration between 0 and 100 (<b>C<sub>3</sub></b>), and the trunk volume of car (<b>C<sub>4</sub></b>) as follows:
+    <ul>
+        <li><b>Consumer price:</b> 20,000$–40,000$</li>
+        <li><b>Maximum speed:</b> 140–220 km/h</li>
+        <li><b>Acceleration 0–100:</b> 8–20 s</li>
+        <li><b>Trunk volume of car:</b> 200–2000 dm<sup>3</sup></li>
+    </ul>
+    Further, the attributes are ranked as shown in <a href="#table12">Table 1.2</a>. The attributes are represented by experts, and the decision matrix is as the matrix of Fig. 1.1. It is desirable to select the best alternative according to the ranking of attributes by the manufacturer by the SMART method.
+</p>
