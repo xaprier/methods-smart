@@ -162,10 +162,19 @@ SMART Method C++ Code With Object-Oriented Principles
     <p align="center" id="e1.7">
         (1.7)&nbsp;<b><i>w<sub>j</sub> = (&radic;2)<sup>h<sub>j</sub></sup> ; j = 1,...,n;</i></b>
     </p>
+    Now, the value of each attribute is calculated after normalization as shown in Eq. (<a href="#e1.8">1.8</a>)
     <p>
-        Now, the value of each attribute is calculated after normalization as shown in Eq. (<a href="#e1.8">1.8</a>)
         <p align="center" id="e1.8">
             (1.8)&nbsp;<b><i>w<sub>j</sub> = (&radic;2)<sup>h<sub>j</sub></sup> / &sum;<sup>n</sup><sub>j=1</sub> (&radic;2)<sup>h<sub>j</sub></sup></i></b>
         </p>
     </p>
+</p>
+
+### 2.4 The Final Ranking of Alternatives
+<p>
+    According to Eq. (<a href="#e1.6">1.6</a>), <b><i>f<sub>i</sub></i></b> is the final weight, which is introduced as shown in Eq. (<a href="#e1.9">1.9</a>).
+    <p align="center" id="e1.9">
+        (1.9)&nbsp;<b><i>f<sub>i</sub> = &sum;<sup>n</sup><sub>j=1</sub> w<sub>j</sub> . g<sub>ij</sub> ; i = 1,...,m</i></b>
+    </p>
+    The alternative with the highest <b><i>f<sub>i</sub></i></b> amount is the best alternative, and others are also ranked.
 </p>
