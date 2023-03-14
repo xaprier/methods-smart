@@ -188,5 +188,141 @@ SMART Method C++ Code With Object-Oriented Principles
         <li><b>Acceleration 0–100:</b> 8–20 s</li>
         <li><b>Trunk volume of car:</b> 200–2000 dm<sup>3</sup></li>
     </ul>
-    Further, the attributes are ranked as shown in <a href="#table12">Table 1.2</a>. The attributes are represented by experts, and the decision matrix is as the matrix of Fig. 1.1. It is desirable to select the best alternative according to the ranking of attributes by the manufacturer by the SMART method.
+    Further, the attributes are ranked as shown in <a href="#table12">Table 1.2</a>. The attributes are represented by experts, and the decision matrix is as the matrix of <a href="#fig11">Fig. 1.1</a>. It is desirable to select the best alternative according to the ranking of attributes by the manufacturer by the SMART method.
+</p>
+
+<p>
+    <h2>&#9752; Solution</h3>
+    <h3>(A) <b>Rating the attributes</b></h3>
+    The rating of attributes is as shown in <a href="#stable13">Table 1.3</a>.
+    <p>
+        <table align="center" id="stable12" border="true">
+            <p align="center"><b>(Table 1.2)</b> Ranking the attributes</p>
+            <tr>
+                <td>Attribute</td>
+                <td>C<sub>1</sub></td>
+                <td>C<sub>2</sub></td>
+                <td>C<sub>3</sub></td>
+                <td>C<sub>4</sub></td>
+            </tr>
+            <tr>
+                <td>Rank</td>
+                <td>9</td>
+                <td>5</td>
+                <td>7</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table align="center" id="sfig11" border="true">
+            <p align="center"><b>(Fig 1.1)</b> Decision matrix of car production</p>
+            <tr>
+                <td></td>
+                <td>-</td>
+                <td>+</td>
+                <td>-</td>
+                <td>+</td>
+                <td>Attribute Type</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>C<sub>1</sub></td>
+                <td>C<sub>2</sub></td>
+                <td>C<sub>3</sub></td>
+                <td>C<sub>4</sub></td>
+                <td>Attribute</td>
+            </tr>
+            <tr>
+                <td>A<sub>1</sub></td>
+                <td>25000</td>
+                <td>153</td>
+                <td>15.300</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>A<sub>2</sub></td>
+                <td>33000</td>
+                <td>177</td>
+                <td>12.300</td>
+                <td>380</td>
+            </tr>
+            <tr>
+                <td>A<sub>3</sub></td>
+                <td>40000</td>
+                <td>199</td>
+                <td>11.100</td>
+                <td>480</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table align="center" id="stable13" border="true">
+            <p align="center"><b>(Table 1.3)</b> Rating the attributes</p>
+            <tr>
+                <td>Rank</td>
+                <td>Performance</td>
+                <td>C<sub>1</sub></td>
+                <td>C<sub>2</sub></td>
+                <td>C<sub>3</sub></td>
+                <td>C<sub>4</sub></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Excellent</td>
+                <td>20,312.500</td>
+                <td>220</td>
+                <td>8.188</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+                <td>20,625</td>
+                <td>180</td>
+                <td>8.375</td>
+                <td>1100</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Good</td>
+                <td>21,250</td>
+                <td>160</td>
+                <td>8.750</td>
+                <td>650</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td></td>
+                <td>22,500</td>
+                <td>150</td>
+                <td>9.500</td>
+                <td>425</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Medium</td>
+                <td>25,000</td>
+                <td>145</td>
+                <td>11</td>
+                <td>312.500</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td>30,000</td>
+                <td>142.500</td>
+                <td>14</td>
+                <td>256.250</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Poor</td>
+                <td>40000</td>
+                <td>141.250</td>
+                <td>20</td>
+                <td>228.125</td>
+            </tr>
+        </table>
+    </p>
 </p>
