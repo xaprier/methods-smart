@@ -411,4 +411,18 @@ SMART Method C++ Code With Object-Oriented Principles
         </ul>
         The normalized weight of attributes is as shown in <a href="#stable15">Table 1.5</a>.
     </p>
+    <h3>(D) <b>The final ranking of alternatives</b></h3>
+    <p>
+        The final weight of the alternatives is determined as follows:
+        <p align="center"><b>
+        f<sub>1</sub> = (0.475 x 6.070) + (0.119 x 7.255) + (0.238 x 4.732) + (0.168 x 3.660) = 5.488 <br>
+        f<sub>2</sub> = (0.475 x 4.634) + (0.119 x 8.861) + (0.238 x 5.522) + (0.168 x 6.456) = 5.654 <br>
+        f<sub>3</sub> = (0.475 x 4) + (0.119 x 9.552) + (0.238 x 6.020) + (0.168 x 7.186) = 5.677
+        </b></p>
+        Therefore, the final ranking is:
+        <p align="center"><b>
+        A<sub>3</sub> > A<sub>2</sub> > A<sub>1</sub>
+        </b></p>
+        Accordingly, the car 3 is selected.
+    </p>
 </p>
