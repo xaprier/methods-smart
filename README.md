@@ -42,8 +42,8 @@ SMART Method C++ Code With Object-Oriented Principles
     <p>
         Initially, the matrix of alternatives and attributes is formed based on the information received from the decision maker, which is as shown in Eq.(<a href="#1.1">1.1</a>).
     </p>
-    <table align="center" border="true" id="1.1">
-        <p align="center">(1.1)X<sub>(m,n)</sub>; i = 1,...,m; j = 1,...,n</p>
+    <table align="center" border="true">
+        <p align="center" id="1.1"><b>(1.1)</b>X<sub>(m,n)</sub>; i = 1,...,m; j = 1,...,n</p>
         <tr>
             <td><i>r</i><sub>11</sub></td>
             <td>...</td>
@@ -87,8 +87,8 @@ SMART Method C++ Code With Object-Oriented Principles
         In this technique, the qualitative attributes are ranked as
         shown in <a href=#table11>Table 1.1</a>.
     </p>
-    <table border="true" align="center" id="table11">
-        <p align="center">Table 1.1 Seven ranking of qualitative attributes</p>
+    <table border="true" align="center">
+        <p align="center" id="table11"><b>Table 1.1</b> Seven ranking of qualitative attributes</p>
         <tr>
             <td>Poor</td><td>Fairly Weak</td><td>Medium</td><td>Fairly Good</td><td>Good</td><td>Very Good</td><td>Excellent</td>
         </tr>
@@ -188,7 +188,7 @@ SMART Method C++ Code With Object-Oriented Principles
         <li><b>Acceleration 0–100:</b> 8–20 s</li>
         <li><b>Trunk volume of car:</b> 200–2000 dm<sup>3</sup></li>
     </ul>
-    Further, the attributes are ranked as shown in <a href="#table12">Table 1.2</a>. The attributes are represented by experts, and the decision matrix is as the matrix of <a href="#fig11">Fig. 1.1</a>. It is desirable to select the best alternative according to the ranking of attributes by the manufacturer by the SMART method.
+    Further, the attributes are ranked as shown in <a href="#stable12">Table 1.2</a>. The attributes are represented by experts, and the decision matrix is as the matrix of <a href="#sfig11">Fig. 1.1</a>. It is desirable to select the best alternative according to the ranking of attributes by the manufacturer by the SMART method.
 </p>
 
 <p>
@@ -196,8 +196,8 @@ SMART Method C++ Code With Object-Oriented Principles
     <h3>(A) <b>Rating the attributes</b></h3>
     The rating of attributes is as shown in <a href="#stable13">Table 1.3</a>.
     <p>
-        <table align="center" id="stable12" border="true">
-            <p align="center"><b>(Table 1.2)</b> Ranking the attributes</p>
+        <table align="center" border="true">
+            <p align="center" id="stable12"><b>(Table 1.2)</b> Ranking the attributes</p>
             <tr>
                 <td>Attribute</td>
                 <td>C<sub>1</sub></td>
@@ -257,8 +257,8 @@ SMART Method C++ Code With Object-Oriented Principles
         </table>
     </p>
     <p>
-        <table align="center" id="stable13" border="true">
-            <p align="center"><b>(Table 1.3)</b> Rating the attributes</p>
+        <table align="center" border="true">
+            <p align="center" id="stable13"><b>(Table 1.3)</b> Rating the attributes</p>
             <tr>
                 <td>Rank</td>
                 <td>Performance</td>
@@ -324,5 +324,80 @@ SMART Method C++ Code With Object-Oriented Principles
                 <td>228.125</td>
             </tr>
         </table>
+    </p>
+    <br>
+    <h3>(B) <b>The effective weights of alternatives</b></h3>
+    <p>
+        The effective weight of alternatives is calculated according to the proposed tips and Eq. (<a href="#e1.4">1.4</a>). For example, the effective weight of alternative 1, under the negative price attribute, is computed as follows:
+        <p align="center">
+            <b><i>g<sub>11</sub> = 10 - log<sub>2</sub><sup>(25000 - 20312.500) / (40000 - 20312.500) * 64</sup> = 6.070</i></b>
+        </p>
+        The effective weight of alternative 1 under the positive attribute of the maximum speed is determined as follows:
+        <p align="center">
+            <b><i>g<sub>12</sub> = 4 + log<sub>2</sub><sup>(153 - 141.250) / (220 - 141.500) * 64</sup> = 7.255</i></b>
+        </p>
+        The effective weight of alternative 1 under the negative attribute of acceleration (the lower the time of reaching a speed of 100 km/h, the machine is better) is calculated as follows:
+        <p align="center">
+            <b><i>g<sub>13</sub> = 10 - log<sub>2</sub><sup>(15.300 - 8.188) / (20 - 8.188) * 64</sup> = 4.732</i></b>
+        </p>
+        The effective weight of alternative 1 under the positive attribute of the trunk volume is obtained as follows:
+        <p align="center">
+            <b><i>g<sub>14</sub> = 4 + log<sub>2</sub><sup>(250 - 228.125) / (2000 - 228.125) * 64</sup> = 3.660</i></b>
+        </p>
+        Also, the effective weight of other alternatives is according to <a href="#stable14">Table 1.4</a>.
+        <p align="center" id="stable14">
+            <table border="true">
+                <p><b>Table 1.4</b> Effective weight of attributes</p>
+                <tr>
+                    <td></td>
+                    <td>Car 1</td>
+                    <td>Car 2</td>
+                    <td>Car 3</td>
+                </tr>
+                <tr>
+                    <td>C<sub>1</sub></td>
+                    <td>6.070</td>
+                    <td>4.634</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>C<sub>2</sub></td>
+                    <td>7.255</td>
+                    <td>8.861</td>
+                    <td>9.552</td>
+                </tr>
+                <tr>
+                    <td>C<sub>3</sub></td>
+                    <td>4.732</td>
+                    <td>5.522</td>
+                    <td>6.020</td>
+                </tr>
+                <tr>
+                    <td>C<sub>4</sub></td>
+                    <td>3.660</td>
+                    <td>6.456</td>
+                    <td>7.186</td>
+                </tr>
+            </table>
+        </p>
+        <p align="center">
+            <table border="true">
+                <p id="stable15"><b>Table 1.5</b> Normalized weights of attributes</p>
+                <tr>
+                    <td></td>
+                    <td>C<sub>1</sub></td>
+                    <td>C<sub>2</sub></td>
+                    <td>C<sub>3</sub></td>
+                    <td>C<sub>4</sub></td>
+                </tr>
+                <tr>
+                    <td>Value</td>
+                    <td>0.475</td>
+                    <td>0.119</td>
+                    <td>0.238</td>
+                    <td>0.168</td>
+                </tr>
+            </table>
+        </p>
     </p>
 </p>
