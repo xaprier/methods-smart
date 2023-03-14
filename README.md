@@ -400,4 +400,15 @@ SMART Method C++ Code With Object-Oriented Principles
             </table>
         </p>
     </p>
+    <h3>(C) <b>The normalized weights</b></h3>
+    <p>
+        At first, the normalized weight of four attributes is obtained:
+        <ul>
+            <li>Weight of the price attribute: (&radic;2)<sup>9</sup> = 22.627</li>
+            <li>Weight of the maximum speed attribute: (&radic;2)<sup>5</sup> = 5.657</li>
+            <li>Weight of the acceleration attribute: (&radic;2)<sup>7</sup> = 11.314</li>
+            <li>Weight of the trunk volume attribute: (&radic;2)<sup>6</sup> = 8</li>
+        </ul>
+        The normalized weight of attributes is as shown in <a href="#stable15">Table 1.5</a>.
+    </p>
 </p>
