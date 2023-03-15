@@ -20,8 +20,11 @@
 
 # methods-smart
 SMART Method C++ Code With Object-Oriented Principles
-  
+
 # SMART Method
+<details>
+    <summary><b>Introduction</b></summary>
+
 ## 1. Introduction
 
 <html lang="en_US">
@@ -98,7 +101,10 @@ SMART Method C++ Code With Object-Oriented Principles
     </table>
 </html>
 
-## 2. Description of SMART Method
+</details>
+
+<details>
+    <summary>Description of SMART Method</summary>
 
 ### 2.1 Rating the Attributes
 <html>
@@ -178,8 +184,11 @@ SMART Method C++ Code With Object-Oriented Principles
     </p>
     The alternative with the highest <b><i>f<sub>i</sub></i></b> amount is the best alternative, and others are also ranked.
 </p>
+</details>
+<details>
 
-## 3.1 Case Study
+<summary>Case Study</summary>
+
 <p>
     A manufacturer, aiming to produce a car from three different car models (<b>A<sub>1</sub>, A<sub>2</sub> and A<sub>3</sub></b>), expresses the selection interval for the attributes of price (<b>C<sub>1</sub></b>), maximum speed (<b>C<sub>2</sub></b>), acceleration between 0 and 100 (<b>C<sub>3</sub></b>), and the trunk volume of car (<b>C<sub>4</sub></b>) as follows:
     <ul>
@@ -426,3 +435,5 @@ SMART Method C++ Code With Object-Oriented Principles
         Accordingly, the car 3 is selected.
     </p>
 </p>
+
+</details>
