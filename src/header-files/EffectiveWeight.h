@@ -7,7 +7,14 @@
 
 
 class EffectiveWeight {
+    bool type;
+    float value;
+    float *rate;
 
+public:
+    EffectiveWeight(float value, float *rate, bool type);
+
+    float operator=(const EffectiveWeight &other);
 };
 
 
