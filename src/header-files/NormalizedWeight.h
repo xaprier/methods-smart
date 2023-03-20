@@ -7,7 +7,10 @@
 
 
 class NormalizedWeight {
-
+    int rank, nWeight;
+public:
+    explicit NormalizedWeight(int rank);
+    float operator=(const NormalizedWeight &other);
 };
 
 

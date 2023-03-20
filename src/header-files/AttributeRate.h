@@ -7,7 +7,10 @@
 
 
 class AttributeRate {
-
+    int min, max;
+public:
+    AttributeRate(int min, int max);
+    float* operator=(const AttributeRate &other);
 };
 
 

@@ -4,10 +4,13 @@
 
 #ifndef METHODS_SMART_SMARTMETHOD_H
 #define METHODS_SMART_SMARTMETHOD_H
-
+#include "Alternative.h"
 
 class SmartMethod {
-
+    Alternative *alternatives;
+    Attribute *attributeBases;
+public:
+    SmartMethod();
 };
 
 
