@@ -2,8 +2,9 @@
 // Created by xaprier on 3/12/23.
 //
 #include <iostream>
+#include "header-files/SmartMethod.h"
 
 int main() {
-	std::cout << "Hello, World!" << std::endl;
+	SmartMethod smartMethod;
 	return 0;
 }
