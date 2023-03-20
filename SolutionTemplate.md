@@ -11,15 +11,18 @@ NormalizedWeight(Attribute.rank)
 - int rank
 
 Attribute
-- int value, min, max, rank
+- int min, max, rank
 - bool type
+- float value, setValue()
 - int nWeight = NormalizedWeight(rank)
 - int *rate = AttributeRate(min, max) // 0 min, 1 max
 - int effectiveWeight = EffectiveWeight(value, type, rate)
 
 Alternative
 - std::string alternativeName;
-- int finalRank = Attribute
+- Attribute *attribute;
+- Alternative(std::string name, Attribute *attr)
 
 SmartMethod
+- Attribute *attribute = new Attribute[x](min,max,rank,type); // x = number of attributes
 - Alternative *alternative = new Alternative[x];
