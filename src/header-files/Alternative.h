@@ -9,11 +9,11 @@
 
 class Alternative {
     std::string alternativeName;
-    int finalRank;
+    float finalRank;
 public:
     explicit Alternative(const std::string &alternativeName, int attributeCount, const Attribute *referenceAttribute);
     Alternative();
+    friend class SmartMethod;
 };
-
 
 #endif //METHODS_SMART_ALTERNATIVE_H
