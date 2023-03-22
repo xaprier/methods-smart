@@ -4,12 +4,14 @@
 
 #ifndef METHODS_SMART_NORMALIZEDWEIGHT_H
 #define METHODS_SMART_NORMALIZEDWEIGHT_H
-
+#include <vector>
 
 class NormalizedWeight {
     int rank, nWeight;
-public:
-    explicit NormalizedWeight(int rank);
+    const std::vector<int> *ranks;
+
+  public:
+    explicit NormalizedWeight(int rank, const std::vector<int> &ranks);
     float operator=(const NormalizedWeight &other);
 };
 

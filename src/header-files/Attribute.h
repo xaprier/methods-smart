@@ -9,13 +9,14 @@
 #include "EffectiveWeight.h"
 #include <string>
 #include <iostream>
-
+#include <vector>
 class Attribute {
     // variables
     int min, max, rank;
     float value;
     bool type;
     std::string attributeName;
+    static std::vector<int> ranks;
 
     // results
     float nWeight;

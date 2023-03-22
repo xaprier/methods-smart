@@ -7,7 +7,7 @@
 Attribute::Attribute(float value, const Attribute &other) : min(other.min), max(other.max), rank(other.rank), type(other.type), attributeName(other.attributeName) {
     this->value = value;
 
-    auto normalizedWeight = NormalizedWeight(rank);
+    auto normalizedWeight = NormalizedWeight(rank, ranks);
     auto attributeRate = AttributeRate(min, max);
 
     nWeight = normalizedWeight.operator=(normalizedWeight);
@@ -25,5 +25,6 @@ Attribute::Attribute() {
     std::cout << "Enter the attribute's name, minimum value, maximum value, rank in your decision, type(- +):";
     std::cin >> attributeName >> min >> max >> rank >> c;
     type = c == '+';
+    ranks.push_back(rank);
 }
 
