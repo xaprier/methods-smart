@@ -4,8 +4,8 @@
 
 #include "../header-files/NormalizedWeight.h"
 
-NormalizedWeight::NormalizedWeight(int rank, const std::vector<int> &ranks) : rank(rank) {
-    this->ranks = &ranks;
+NormalizedWeight::NormalizedWeight(int rank, const std::vector<int> *ranks) : rank(rank) {
+    this->ranks = ranks;
 }
 
 float NormalizedWeight::operator=(const NormalizedWeight &other) {

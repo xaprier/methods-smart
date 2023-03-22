@@ -4,10 +4,12 @@
 
 #include "../header-files/Attribute.h"
 
+std::vector<int> Attribute::ranks = std::vector<int>();
+
 Attribute::Attribute(float value, const Attribute &other) : min(other.min), max(other.max), rank(other.rank), type(other.type), attributeName(other.attributeName) {
     this->value = value;
 
-    auto normalizedWeight = NormalizedWeight(rank, ranks);
+    auto normalizedWeight = NormalizedWeight(rank, &ranks);
     auto attributeRate = AttributeRate(min, max);
 
     nWeight = normalizedWeight.operator=(normalizedWeight);
