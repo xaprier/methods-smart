@@ -11,7 +11,7 @@ class NormalizedWeight {
     const std::vector<int> *ranks;
 
   public:
-    explicit NormalizedWeight(int rank, const std::vector<int> &ranks);
+    explicit NormalizedWeight(int rank, const std::vector<int> *ranks);
     float operator=(const NormalizedWeight &other);
 };
 
