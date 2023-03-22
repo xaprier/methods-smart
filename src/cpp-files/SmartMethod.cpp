@@ -5,6 +5,9 @@
 #include "../header-files/SmartMethod.h"
 #include <iostream>
 SmartMethod::SmartMethod() {
+    std::string resultName;
+    float resultValue = 0;
+
     std::cout << "How many attribute there will be: ";
     int attributeCount;
     std::cin >> attributeCount;
@@ -19,5 +22,11 @@ SmartMethod::SmartMethod() {
         std::string alternativeName;
         std::cin >> alternativeName;
         alternatives[i] = Alternative(alternativeName, attributeCount, &*attributeBases);
+        if (resultValue < alternatives[i].finalRank) {
+            resultValue = alternatives[i].finalRank;
+            resultName = alternatives[i].alternativeName;
+        }
     }
+
+    std::cout << "The best alternative is " << resultName << " with a value of " << resultValue << std::endl;
 }
