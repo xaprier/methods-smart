@@ -18,9 +18,10 @@
   </a>
 </p>
 
-# methods-smart
-SMART Method C++ Code With Object-Oriented Principles
 
+# methods-smart
+SMART Method C++ Code With Object-Oriented Principles<br>
+Recorded coding session while coding this project. You can access the playlist with this <a href="https://www.youtube.com/watch?v=vmwu1gT6-Rw&list=PLUWaeJl-QWIIqOe8G6sSMB775-1W3OFWP">link</a>
 # SMART Method
 <details>
     <summary><b>Introduction</b></summary>
@@ -106,7 +107,7 @@ SMART Method C++ Code With Object-Oriented Principles
 <details>
     <summary>Description of SMART Method</summary>
 
-### 2.1 Rating the Attributes
+<h3 id="rating-the-attributes">2.1 Rating the Attributes</h3>
 <html>
     <p>
         In the first step, the minimum <b><i>P<sub>min</sub></i></b> and 
@@ -142,7 +143,7 @@ SMART Method C++ Code With Object-Oriented Principles
     </p>
 </html>
 
-### 2.2 The Effective Weights of Alternatives
+<h3 id="effective-weight-of-alternatives">2.2 The Effective Weights of Alternatives</h3>
 <p>
     g<sub>ij</sub> is the effective weight of alternatives and it is obtained from judgment of the decision maker about the alternative A<sub>i</sub> against the attribute C<sub>j</sub>. 
     Initially, the qualitative attributes are ranked based on the attribute situation expressed by the decision maker according to <a href="#table11">Table 1.1</a>. 
@@ -156,7 +157,7 @@ SMART Method C++ Code With Object-Oriented Principles
     </p>
 </p>
 
-### 2.3 The Normalized Weights
+<h3 id="normalized-weights">2.3 The Normalized Weights</h3>
 <p>
     Initially, the decision maker is asked to rank the attributes according to his priority and <a href="#table11">Table 1.1</a> from 4 to 10. The following definitions are considered to formulate the model:<br>
     <ul>
@@ -437,3 +438,19 @@ SMART Method C++ Code With Object-Oriented Principles
 </p>
 
 </details>
+<br>
+
+# Documentation
+## SmartMethod
+- The base class for creating Alternatives and selecting the best choice
+- You will call only this constructor for calculating alternative's rank
+## Alternative
+- This creates alternative's attributes, getting alternative name and give the attribute base to the real attribute
+## Attribute
+- This creates attributes and calculating NormalizedWeight(nWeight), EffectiveWeight(effectiveWeight) and Rate of the attributes(rate)
+## AttributeRate
+- This is calculating the <a href="#rating-the-attributes">Rating the attributes</a>
+## EffectiveWeight
+- This is calculating the <a href="#effective-weight-of-alternatives">Effective Weight of Alternatives</a>
+## NormalizedWeight
+- This is calculating the <a href="#normalized-weights">Normalized Weight of Attributes</a>
