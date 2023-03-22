@@ -9,5 +9,6 @@ AttributeRate::AttributeRate(int min, int max) : min(min), max(max) { }
 
 float *AttributeRate::operator=(const AttributeRate &other) {
     auto* result = new float[2];
+    // operations for calculation minimum and maximum attribute rate
     return result;
 }
