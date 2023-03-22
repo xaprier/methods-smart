@@ -7,16 +7,17 @@ AttributeRate(Attribute.min, Attribute.max)
 - int min, max
 - int poor, excellent // calculated area
 
-NormalizedWeight(Attribute.rank)
-- int rank
+NormalizedWeight(Attribute.rank, const std::vector<int> &ranks)
+- int rank, const std::vector<int> *ranks
 
 Attribute
 - int min, max, rank
 - bool type
-- float value, setValue()
-- int nWeight = NormalizedWeight(rank)
-- int *rate = AttributeRate(min, max) // 0 min, 1 max
-- int effectiveWeight = EffectiveWeight(value, type, rate)
+- static std::vector<int> ranks;
+- float value
+- float nWeight = NormalizedWeight(rank)
+- float *rate = AttributeRate(min, max) // 0 min, 1 max
+- float effectiveWeight = EffectiveWeight(value, type, rate)
 
 Alternative
 - std::string alternativeName;
