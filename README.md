@@ -21,7 +21,7 @@
 
 # methods-smart
 SMART Method C++ Code With Object-Oriented Principles<br>
-Recorded coding session while coding this project. You can access the playlist with this <a href="https://www.youtube.com/watch?v=vmwu1gT6-Rw&list=PLUWaeJl-QWIIqOe8G6sSMB775-1W3OFWP">link</a>
+
 # SMART Method
 <details>
     <summary><b>Introduction</b></summary>
